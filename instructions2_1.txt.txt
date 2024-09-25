@@ -1,0 +1,11 @@
+Il s'agit ici des étapes suivies pour résoudre cette situation.
+1- On commence par créer le dossier (au quel on donne le nom du repo en question : Partie2_Situation1)
+2- Ensuite, on initialise un Git dans ce dossier en utilisant la commande "git init"
+3- On crée un fichier README.md (dans Partie2_Situation1) dans lequel on a écrit : "Partie2_Situation1".
+4- On a ajouté le fichier créé avec la commande "git add --a"
+5-On a fait un commit nommé Commit initial avec la commande "git commit -m "Commit initial"
+6- On a créé une novelle branche (dev_laurier) sur laquelle on merge avec la commande : "git checkout -b dev_laurier"
+7-On peut à présent se connecter à GitHub et créer un nouveau repository (comme à la partie 1)
+8-Ensuite, on lie le repo local avec celui de GitHub en utilisant la commande "git remote add origin https://github.com/LaurierFofack/partie2_situation1.git"
+9- on push le projet sur GitHub avec "git push origin dev_laurier"
+
